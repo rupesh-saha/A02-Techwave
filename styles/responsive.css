@@ -1,5 +1,5 @@
 @media screen and (max-width: 576px) {
-  .navlink, .btn1 {
+  .navlink, .noshow {
     display: none;
   }
 
@@ -13,6 +13,32 @@
   .fa-bars {
     color: #FFFFFF;
     font-size: 1.5rem;
+  }
+
+  .banner {
+    height: auto;           
+    padding: 60px 20px;     
+  }
+
+  .banner h1 {
+    font-size: 2.9rem;
+  }
+
+  .herostuff {
+    width: 250px;           
+    height: 250px;
+    margin-top: 0;          
+    margin-bottom: 20px;
+  }
+
+  .new {
+    top: 20px;
+    right: 10px;
+    font-size: 0.7rem;      
+  }
+
+  .mic {
+    width: 80px;            
   }
 
 }
