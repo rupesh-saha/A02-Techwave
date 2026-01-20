@@ -45,7 +45,7 @@
     padding-bottom: 40px;
   }
 
-  .about {
+  .about, .grider {
   padding-top: 40px;
   padding-bottom: 40px;
   }
@@ -64,12 +64,34 @@
   gap: 40px;
   }
 
-  .about-container h2 {
+  .title-h2 {
   font-size: 2rem;
   }
 
   .about-container p {
     font-weight: 300;
+  }
+
+  .grid-item h3 {
+    font-size: 1.375rem;
+  }
+
+  .audio, .device, .location
+  .resource, .interview {
+    padding: 24px;
+  }
+
+  .grid-space {
+    grid-template-areas: none;
+
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 16px;
+  }
+
+  .grid-item {
+    grid-area: auto; 
+    width: 100%;
   }
 
 }

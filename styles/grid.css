@@ -1,0 +1,68 @@
+.grider {
+  padding-top: 120px;
+  padding-bottom: 120px;
+  color: #FFFFFF;
+  background-color: #230E3D;
+}
+
+.grid-section {
+  margin: 0 auto;
+  width: 93%;
+  max-width: 1200px;
+}
+
+.grid-section h2 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.grid-item {
+  background-color: rgba(53, 17, 101, 0.4);
+  border: none;
+  border-radius: 40px;
+  padding: 40px;
+}
+
+.grid-item h3 {
+  margin-top: 16px;
+  margin-bottom: 16px;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.grid-item p {
+  line-height: 24px;
+  color: #aa9fb8;
+}
+
+.audio {
+  padding: 107.5px 40px;
+  grid-area: audio;
+}
+
+.device {
+  grid-area: device;
+}
+
+.location {
+  grid-area: location;
+}
+
+.interview {
+  grid-area: interview;
+}
+
+.resource {
+  grid-area: resource;
+}
+
+.grid-space {
+  display: grid;
+  grid-template-areas: 
+    "audio device device"
+    "audio location location"
+    "interview interview resource"
+  ;
+
+  gap: 30px;
+}
