@@ -1,0 +1,18 @@
+@media screen and (max-width: 576px) {
+  .navlink, .btn1 {
+    display: none;
+  }
+
+  .hamburger {
+    display: block;
+    background: none; 
+    border: none;     
+    cursor: pointer;
+  }
+
+  .fa-bars {
+    color: #FFFFFF;
+    font-size: 1.5rem;
+  }
+
+}

@@ -1,0 +1,51 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+
+#gradient-color {
+  background: linear-gradient(
+    90deg, 
+    #F7E93F 0%, 
+    #FB09B4 51%, 
+    #9100F8 100%
+  );
+
+  -webkit-background-clip: text;
+  background-clip: text;
+
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+}
+
+#gradient-background-color {
+  background: linear-gradient(
+    90deg, 
+    #F7E93F 0%, 
+    #FB09B4 51%, 
+    #9100F8 100%
+  );
+
+}
+
+.color1 {
+  background-color: #1A0B2E;
+}
+
+.color2 {
+  background-color: #00FF88;
+}
+
+.color3 {
+  background-color: #FFFFFF;
+}
+
+.flexer {
+  display: flex;
+}
