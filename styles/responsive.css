@@ -41,4 +41,35 @@
     width: 80px;            
   }
 
+  .hr-tag {
+    padding-bottom: 40px;
+  }
+
+  .about {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  }
+
+  .about-container br {
+    display: none;
+  }
+
+  .hr-tag {
+    margin-top: 20px;
+  }
+
+  .stat-grid {
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 40px;
+  gap: 40px;
+  }
+
+  .about-container h2 {
+  font-size: 2rem;
+  }
+
+  .about-container p {
+    font-weight: 300;
+  }
+
 }
