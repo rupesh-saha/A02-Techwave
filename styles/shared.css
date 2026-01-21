@@ -55,3 +55,12 @@
   font-weight: bold;
   margin-bottom: 16px;
 }
+
+.fa-spotify,
+.fa-envelope {
+  margin-right: 8px;
+}
+
+.fa-arrow-right {
+  margin-left: 8px;
+}
