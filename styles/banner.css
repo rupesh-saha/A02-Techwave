@@ -66,6 +66,10 @@
   margin-bottom: 24px;
 }
 
+.buttonarea {
+  display: flex;
+}
+
 .btn2 {
   font-weight: 600;
   color: #00FF88;
