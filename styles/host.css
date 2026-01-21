@@ -1,0 +1,52 @@
+.hostarea {
+  padding-bottom: 120px;
+  color: #FFFFFF;
+  margin-top: -1px;
+  border: none;
+}
+
+.host-section {
+  margin: 0 auto;
+  width: 93%;
+  max-width: 1200px;
+  text-align: center;
+}
+
+.host-section h2 {
+  margin-bottom: 40px;
+}
+
+.host-card {
+  background-color: #250D44;
+  padding: 40px;
+  border: none;
+  border-radius: 40px;
+  gap: 24px;
+}
+
+.host-description {
+  text-align: left;
+  padding-top: 25px;
+}
+
+.host-description h3 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+.icons {
+  align-items: center;
+  gap: 8px;
+}
+.social-icon {
+  width: 45px;
+  height: 45px;
+  border: 1px solid rgba(255, 255, 255, 0.2); /* Subtle circular border */
+  border-radius: 50%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}

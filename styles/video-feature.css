@@ -2,6 +2,8 @@
   padding-top: 120px;
   color: #FFFFFF;
   padding-bottom: 120px;
+  margin-top: -1px;
+  border: none;
 }
 
 .video-feature-container {
@@ -41,7 +43,8 @@ iframe {
   margin-bottom: 12px;
 }
 
-.video-description p {
+.video-description p,
+.host-description p {
   line-height: 24px;
   color: #aa9fb8;
   margin-bottom: 12px;

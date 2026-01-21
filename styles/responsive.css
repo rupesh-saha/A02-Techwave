@@ -108,4 +108,28 @@
     width: 100%;
   }
 
+  .hostarea {
+    padding-bottom: 40px;
+  }
+
+  .host-card {
+    flex-direction: column;
+    align-items: center;
+    gap: 0px;
+    padding: 24px;
+  }
+
+  .host-card img {
+    width: 150px;
+    margin-bottom: 16px;
+  }
+
+  .host-description {
+    text-align: center;
+  }
+
+  .icons {
+    justify-content: center;
+  }
+
 }
